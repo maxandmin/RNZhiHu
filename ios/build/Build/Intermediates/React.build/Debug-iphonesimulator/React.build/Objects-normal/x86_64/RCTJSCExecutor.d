@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Executors/RCTJSCExecutor.mm \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Executors/RCTJSCExecutor.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/maxin/Desktop/RN/ZhiHu/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/maxin/Desktop/RN/ZhiHu/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/maxin/Desktop/RN/ZhiHu/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Modules/JSCSamplingProfiler.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTJSCErrorHandling.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Profiler/RCTJSCProfiler.h \
+  /Users/maxin/Desktop/RN/ZhiHu/node_modules/react-native/React/Modules/RCTDevMenu.h
