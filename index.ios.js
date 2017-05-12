@@ -9,4 +9,22 @@ import {
   AppRegistry,
 } from 'react-native';
 import Launch from './APP/Launch.js'
-AppRegistry.registerComponent('ZhiHu', () => Launch);
+import {Navigator} from 'react-native-deprecated-custom-components'
+
+export default class APP extends Component {
+  render() {
+    return (
+        <Navigator
+            initialRoute={{name:'启动页',component:Launch}}
+            configureScene={()=>{
+              return Navigator.SceneConfigs.PushFromRight;}}
+            renderScene={(route,navigator)=>{
+              let Component = route.component;
+              return <Component {...route.passProps} navigator={navigator}/>;
+            }}
+        />
+    );
+  }
+}
+
+AppRegistry.registerComponent('ZhiHu', () => APP);

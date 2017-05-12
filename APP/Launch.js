@@ -10,12 +10,8 @@ import {
   Image,
   View
 } from 'react-native';
-// import Order from './Order.js'
-// import StackNavigator from 'react-navigation';
-// const App = StackNavigator({
-//   Order: {screen: MainScreen},
-//   Profile: {screen: ProfileScreen},
-// });
+import System from './Common/System.js'
+import Main from './Main.js'
 export default class Launch extends Component {
   render() {
   return (
@@ -23,14 +19,13 @@ export default class Launch extends Component {
     );
   }
    componentDidMount(){
-    setTimeout(()=>{alert('hello');}, 3000);
+    setTimeout(()=>{this.props.navigator.replace({component: Main});}, 3000);
   }
 }
 const styles = StyleSheet.create({
   welcome: {
-    height:667,
-    width:375,
-    backgroundColor: 'red',
+    height:System.mHeight,
+    width:System.mwidth,
   }
 });
 

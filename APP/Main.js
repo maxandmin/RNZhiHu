@@ -13,12 +13,11 @@ import {
   View,
   Image,
   Platform,
-  Navigator
 } from 'react-native';
+import {Navigator} from 'react-native-deprecated-custom-components'
 import TabNavigator from 'react-native-tab-navigator'
-import  Home from '../Home/Home'
-import  UserCenter from '../UserCenter/UserCenter'
-import  Order from '../Order/Order'
+import  Home  from './Home/Home'
+import  Other from './Other/Other'
 
 export default class Main extends Component {
     constructor(props){
@@ -27,14 +26,14 @@ export default class Main extends Component {
             selectedTab: 'Home'
         }
     }
+    /*
+    
+    */
     render() {
         return (
             <TabNavigator>
-                {this.renderTabbarItem('首页', 'icon_tabbar_homepage', 'icon_tabbar_homepage_selected','Home', Home)}
-                {this.renderTabbarItem('附近', 'icon_tabbar_nearby_normal', 'icon_tabbar_nearby_selected','Near',  Home)}
-                {this.renderTabbarItem('逛一逛', 'icon_tabbar_discover', 'icon_tabbar_discover_selected','Walk', Home)}
-                {this.renderTabbarItem('订单', 'icon_tabbar_order', 'icon_tabbar_order_selected','Order', Order)}
-                {this.renderTabbarItem('我的', 'icon_tabbar_mine', 'icon_tabbar_mine_selected','MyCenter', UserCenter)}
+                {this.renderTabbarItem('首页', 'btn_home_normal', 'btn_home_selected','Home', Home)}
+                {this.renderTabbarItem('分类', 'btn_column_normal', 'btn_column_selected','Other',  Other)}
             </TabNavigator>
         );
     }
@@ -46,7 +45,7 @@ export default class Main extends Component {
                 renderSelectedIcon={() =><Image source={{uri: selectedIconName}} style={styles.iconStyle}/>}
                 onPress={()=>{this.setState({selectedTab:selectedTab})}}
                 selected={this.state.selectedTab === selectedTab}
-                selectedTitleStyle={{color:'rgba(33,192,174,1.0)'}}
+                selectedTitleStyle={{color:'rgba(50,120,198,1.0)'}}
                 badgeText = {badgeText}>
 
                 <Navigator
@@ -61,7 +60,6 @@ export default class Main extends Component {
         );
     }
 }
-
 const styles = StyleSheet.create({
     iconStyle:{
         width: Platform.OS === 'ios' ? 25 : 25,
